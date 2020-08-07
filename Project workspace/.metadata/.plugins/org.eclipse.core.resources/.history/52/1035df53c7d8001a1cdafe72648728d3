@@ -1,0 +1,15 @@
+package Snake;
+
+public class Token {
+
+		private int x, y, score;
+		private Snake snake;
+		
+		public Token(Snake s) {
+			snake s;
+		}
+		
+		public int getScore() {
+			return score;
+		}
+}

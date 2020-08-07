@@ -1,0 +1,10 @@
+package Pong;
+
+public class Ball {
+
+	double xVel, yVel, x, y;
+	
+	public int getX() {
+		return (int)x;
+	}
+}

@@ -1,0 +1,81 @@
+!SESSION 2020-08-06 13:35:13.170 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-06 13:36:17.868
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\walter_h'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-07 15:57:31.400 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-07 15:58:01.211
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\walter_h'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-07 16:09:16.656 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-07 16:09:39.173
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\walter_h'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:09.834
+!MESSAGE Attempt to redefine project facet action "glassfish.ejb#4.0#INSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:09.960
+!MESSAGE Attempt to redefine project facet action "glassfish.ejb#4.0#UNINSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:09.997
+!MESSAGE Attempt to redefine project facet action "glassfish.web#3.1#INSTALL" in plugin org.eclipse.glassfish.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:10.009
+!MESSAGE Attempt to redefine project facet action "glassfish.web#3.1#UNINSTALL" in plugin org.eclipse.glassfish.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:10.030
+!MESSAGE Attempt to redefine project facet action "glassfish.web#5#INSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:10.074
+!MESSAGE Attempt to redefine project facet action "glassfish.web#5#UNINSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:10.085
+!MESSAGE Attempt to redefine project facet action "glassfish.web#4.0#INSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:10.095
+!MESSAGE Attempt to redefine project facet action "glassfish.web#4.0#UNINSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:10.111
+!MESSAGE Attempt to redefine project facet action "glassfish.ejb#5#INSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:10.126
+!MESSAGE Attempt to redefine project facet action "glassfish.ejb#5#UNINSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:10.155
+!MESSAGE Attempt to redefine project facet action "glassfish.ejb#3.1#INSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2020-08-07 16:10:10.195
+!MESSAGE Attempt to redefine project facet action "glassfish.ejb#3.1#UNINSTALL" in plugin org.eclipse.payara.tools.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2020-08-07 16:18:48.124
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/payara/Payara_PatchedProjects/eclipse/payaratools/oxygen/development/content.jar

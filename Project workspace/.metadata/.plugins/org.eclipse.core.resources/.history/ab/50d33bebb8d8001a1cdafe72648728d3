@@ -1,0 +1,66 @@
+package Pong;
+
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+public class Tennis extends Applet implements Runnable, KeyListener{
+
+	final int WIDTH = 700, HEIGHT = 500;
+	
+	public void init( ) {
+		this.resize(WIDTH, HEIGHT);
+	}
+	
+	public void paint(Graphics g) {
+		g.setColor(Color.black);
+		g.fillRect(0, 0, WIDTH, WIDTH);
+	}
+	
+	public void update(Graphics g) {
+		paint(g);	
+	}
+
+	@Override
+	public void run() {
+		for(;;) {
+			
+			
+			try {
+				Thread.sleep(10);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		
+	}
+
+	public void keyPressed(KeyEvent arg0) {
+		
+		if (e.getKeyCode() == KeyEvent.VK_UP  {
+			
+		}
+		else if (e.getKeyCode() == KeyEvent.VK_DOWN) {
+			
+		}
+	}
+
+	public void keyReleased(KeyEvent arg0) {
+		
+		if (e.getKeyCode() == KeyEvent.VK_UP  {
+			
+		}
+		else if (e.getKeyCode() == KeyEvent.VK_DOWN) {
+			
+		}
+		
+	}
+
+	public void keyTyped(KeyEvent arg0) {
+
+		
+	}
+
+}

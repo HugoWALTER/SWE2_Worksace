@@ -1,0 +1,22 @@
+package Snake;
+
+import java.applet.Applet;
+
+public class SnakeGame extends Applet impelements Ryunnable{
+
+	public void init() {
+		
+	}
+	
+	public void paint(Graphics g) {
+		
+	}
+	
+	public void update(Graphics g) {
+		
+	}
+	
+	public void repintGraphics g() {
+		
+	}
+}

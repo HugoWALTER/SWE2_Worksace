@@ -1,0 +1,24 @@
+package Pong;
+
+import java.awt.Graphics;
+
+public class HumanPaddle implements Paddle{
+
+	double y, yVel;
+	boolean upAccel, downAccel;
+	int player, x;
+	
+	public void draw(Graphics g) {
+		
+	}
+
+	public void move() {
+		
+	}
+
+	public int getY() {
+		
+		return 0;
+	}
+
+}
