@@ -20,11 +20,13 @@ public class Ball {
 	
 	public int getRandomDirection() {
 		int rand = (int)(Math.random() * 2);
+		
 		if (rand == 1)
 			return 1;
 		else
 			return -1;
 	}
+	
 	public void draw(Graphics g) {
 		g.setColor(Color.white);
 		g.fillOval((int)x-10, (int)y-10, 20, 20);

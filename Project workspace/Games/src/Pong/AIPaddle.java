@@ -15,11 +15,13 @@ public class AIPaddle implements Paddle{
 		upAccel = false; downAccel = false;
 		b1 = b;
 		y = 210; yVel = 0;
+		
 		if (player == 1)
 			x = 20;
 		else
 			x = 660;
 	}
+	
 	public void draw(Graphics g) {
 		g.setColor(Color.white);
 		g.fillRect(x, (int)y, 20, 80);
@@ -34,8 +36,7 @@ public class AIPaddle implements Paddle{
 			y = 420;
 	}
 	
-	public int getY() {
-		
+	public int getY() {	
 		return (int)y;
 	}
 

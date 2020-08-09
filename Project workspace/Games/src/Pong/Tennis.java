@@ -60,6 +60,7 @@ public class Tennis extends Applet implements Runnable, KeyListener{
 			gfx.drawString("Tennis", 340, 100);
 			gfx.drawString("Press Enter to Begin...", 310, 130);
 		}
+		
 		g.drawImage(img, 0, 0, this);
 	}
 	
@@ -70,14 +71,12 @@ public class Tennis extends Applet implements Runnable, KeyListener{
 	@Override
 	public void run() {
 		for(;;) {
-			
 			if (gameStarted) {
 				p1.move();
 				p2.move();
 				b1.move();
 				b1.checkPaddleCollision(p1, p2);
 			}
-			
 			repaint();
 			try {
 				Thread.sleep(10);
@@ -89,7 +88,6 @@ public class Tennis extends Applet implements Runnable, KeyListener{
 	}
 
 	public void keyPressed(KeyEvent e) {
-		
 		if (e.getKeyCode() == KeyEvent.VK_UP) {
 			p1.setUpAccel(true);
 		}
@@ -102,7 +100,6 @@ public class Tennis extends Applet implements Runnable, KeyListener{
 	}
 
 	public void keyReleased(KeyEvent e) {
-		
 		if (e.getKeyCode() == KeyEvent.VK_UP) {
 			p1.setUpAccel(false);
 		}
@@ -112,9 +109,7 @@ public class Tennis extends Applet implements Runnable, KeyListener{
 		
 	}
 
-	public void keyTyped(KeyEvent e) {
-
-		
+	public void keyTyped(KeyEvent e) {		
 	}
 
 }

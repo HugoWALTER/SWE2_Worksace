@@ -13,6 +13,7 @@ public class HumanPaddle implements Paddle{
 	public HumanPaddle(int player) {
 		upAccel = false; downAccel = false;
 		y = 210; yVel = 0;
+		
 		if (player == 1)
 			x = 20;
 		else
@@ -56,7 +57,6 @@ public class HumanPaddle implements Paddle{
 	}
 	
 	public int getY() {
-		
 		return (int)y;
 	}
 

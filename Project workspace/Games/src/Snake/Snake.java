@@ -19,6 +19,7 @@ public class Snake {
 		isMoving = false;
 		elongate = false;
 		snakePoints.add(new Point(STARTX, STARTY));
+		
 		for(int i = 1; i < STARTSIZE; i++) {
 			snakePoints.add(new Point(STARTX - i * 4, STARTY));
 		}
@@ -26,6 +27,7 @@ public class Snake {
 	
 	public void draw(Graphics g) {
 		g.setColor(Color.white);
+		
 		for(Point p : snakePoints) {
 			g.fillRect(p.getX(), p.getY(), 4, 4);
 		}
@@ -40,7 +42,9 @@ public class Snake {
 			for(int i = snakePoints.size() - 1; i >= 1; i--) {
 				snakePoints.set(i,  snakePoints.get(i - 1));
 			}
+			
 			snakePoints.set(0, newStart);
+			
 			if(elongate) {
 				snakePoints.add(last);
 				elongate = false;
