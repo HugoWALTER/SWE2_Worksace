@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CCPlugin
+Bundle-SymbolicName: CCPlugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: HugoWALTER
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.epp.logging.aeri.ide;bundle-version="2.0.7"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.inject
+Automatic-Module-Name: CCPlugin
+Export-Package: ccplugin.views
